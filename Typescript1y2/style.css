@@ -1,0 +1,24 @@
+.header-title {
+    background-color: #007bff; /* Cambia el color a azul */
+    color: white; /* Cambia el texto a blanco */
+    padding: 10px; /* Añade un poco de padding */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    text-align: left; /* Centra el texto */
+    margin-bottom: 20px; /* Añade un margen inferior */
+    width: 100%; /* Asegura que el título ocupa todo el ancho */
+}
+
+.thead-dark {
+    background-color: #343a40; /* Color de fondo de la cabecera de la tabla */
+    color: white; /* Color del texto en la tabla */
+}
+
+.table-container {
+    max-width: 600px; /* Ancho máximo de la tabla */
+    margin: 0; /* Elimina el margen para que esté alineada a la izquierda */
+    padding: 15px; /* Añade un poco de padding */
+}
+
+#num {
+    text-decoration: strong; /* Añade negrita */    
+}
