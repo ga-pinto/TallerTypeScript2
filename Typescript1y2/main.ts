@@ -1,6 +1,6 @@
 // main.ts
-import { series } from './data.js'; // Asegúrate de que este sea el nombre correcto del export en data.js
-import { Serie } from './serie.js'; // Asegúrate de que Serie esté bien definido en serie.js
+import { series } from './data.js'; 
+import { Serie } from './serie.js'; 
 
 let seriesTbody: HTMLElement = document.getElementById('series-table')!;
 const totalSeasonsElm: HTMLElement = document.getElementById("total-seasons")!;
@@ -10,10 +10,10 @@ const seriesTitle: HTMLElement = document.getElementById('series-title')!;
 const seriesDescription: HTMLElement = document.getElementById('series-description')!;
 const seriesLink: HTMLAnchorElement = document.getElementById('series-link') as HTMLAnchorElement;
 
-// Renderizamos las series en la tabla
+// Poner series en la tabla
 renderSeriesInTable(series);
 
-// Calculamos el promedio de temporadas y lo mostramos
+// Calcular el promedio de temporadas y lo mostramos
 totalSeasonsElm.innerHTML = `Seasons average: ${getAverageSeasons(series).toFixed(0)}`;
 
 function renderSeriesInTable(seriesList: Serie[]): void {
